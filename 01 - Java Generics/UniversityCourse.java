@@ -63,7 +63,7 @@ class CourseUtils {
     }
 }
 
-public class pr3 {
+public class UniversityCourse {
     public static void main(String[] args) {
         List<Course<? extends CourseType>> allCourses = new ArrayList<>();
         Course<ExamCourse> javaCourse = new Course<>(new ExamCourse("Java Programming"));

@@ -64,7 +64,7 @@ class DiscountUtil {
     }
 }
 
-public class pr2 {
+public class ProductManagement {
     public static void main(String[] args) {
         List<Product<? extends Category>> catalog = new ArrayList<>();
         Product<BookCategory> book = new Product<>("Java Programming", 50.0, new BookCategory());

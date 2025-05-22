@@ -59,7 +59,7 @@ class ScreeningEngine {
         return new Resume<>(jobRole);
     }
 }
-public class pr5 {
+public class ResumeScreeningSystem {
     public static void main() {
         Resume<SoftwareEngineer> r1 = ScreeningEngine.generateResume(new
                 SoftwareEngineer("Shiyam"));

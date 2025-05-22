@@ -47,7 +47,7 @@ class Storage<T extends WarehouseItem> {
         return items;
     }
 }
-public class pr1 {
+public class InventoryManagement {
     public static void displayItems(List<? extends WarehouseItem> items) {
         for (WarehouseItem item : items) {
             System.out.println(item.getCategory() + ": " + item.getName());

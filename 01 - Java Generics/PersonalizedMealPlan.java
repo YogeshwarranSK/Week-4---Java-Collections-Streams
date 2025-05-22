@@ -56,7 +56,7 @@ class MealPlanGenerator {
         return new Meal<>(mealPlan);
     }
 }
-public class pr4 {
+public class PersonalizedMealPlan {
     public static void main(String[] args) {
         VegetarianMeal veg = new VegetarianMeal();
         VeganMeal vegan = new VeganMeal();
