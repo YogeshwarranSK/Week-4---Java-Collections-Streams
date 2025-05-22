@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class pr1 {
+public class FileReaderExample {
     public static void main(String[] args) {
         String fileName = "data.txt";
 

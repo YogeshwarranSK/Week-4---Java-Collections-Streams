@@ -1,7 +1,7 @@
 package Day20;
 import java.util.Scanner;
 
-public class pr7 {
+public class DivisionWithHandling {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         try {

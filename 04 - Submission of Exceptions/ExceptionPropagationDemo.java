@@ -1,5 +1,5 @@
 package Day20;
-public class pr8 {
+public class ExceptionPropagationDemo {
     public static void method1() {
         int result = 10 / 0;
     }

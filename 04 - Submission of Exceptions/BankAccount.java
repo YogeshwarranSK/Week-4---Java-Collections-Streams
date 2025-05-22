@@ -5,10 +5,10 @@ class InsufficientBalanceException extends Exception {
     }
 }
 
-public class pr10 {
+public class BankAccount {
     private double balance;
 
-    public pr10(double balance) {
+    public BankAccount(double balance) {
         this.balance = balance;
     }
 
@@ -24,7 +24,7 @@ public class pr10 {
     }
 
     public static void main(String[] args) {
-        pr10 account = new pr10(1000);
+        BankAccount account = new BankAccount(1000);
 
         try {
             account.withdraw(500);

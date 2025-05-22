@@ -1,7 +1,7 @@
 package Day20;
 import java.util.Scanner;
 
-public class pr4 {
+public class ArrayElementRetriever {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] arr = null;

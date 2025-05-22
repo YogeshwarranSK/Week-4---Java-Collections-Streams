@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class pr5 {
+public class FirstLineReader {
     public static void main(String[] args) {
         try (BufferedReader reader = new BufferedReader(new FileReader("info.txt"))) {
             String line = reader.readLine();
