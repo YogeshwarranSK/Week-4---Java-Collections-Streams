@@ -1,7 +1,7 @@
 package Day18;
 import java.util.*;
 
-public class pr18 {
+public class InvertMapUtility {
     public static <K, V> Map<V, List<K>> invertMap(Map<K, V> inputMap) {
         Map<V, List<K>> inverted = new HashMap<>();
         for (Map.Entry<K, V> entry : inputMap.entrySet()) {

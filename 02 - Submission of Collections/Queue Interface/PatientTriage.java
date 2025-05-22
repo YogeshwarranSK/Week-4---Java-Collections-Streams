@@ -12,7 +12,7 @@ class Patient {
         return name + " (Severity: " + severity + ")";
     }
 }
-public class pr14 {
+public class PatientTriage {
     public static void main(String[] args) {
         PriorityQueue<Patient> triageQueue = new PriorityQueue<>(
                 (a, b) -> b.severity - a.severity);

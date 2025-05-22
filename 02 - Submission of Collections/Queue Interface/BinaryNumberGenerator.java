@@ -1,7 +1,7 @@
 package Day18;
 import java.util.*;
 
-public class pr13 {
+public class BinaryNumberGenerator {
     public static List<String> generateBinaryNumbers(int N) {
         List<String> result = new ArrayList<>();
         Queue<String> queue = new LinkedList<>();

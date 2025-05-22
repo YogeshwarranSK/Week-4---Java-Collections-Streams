@@ -1,7 +1,7 @@
 package Day18;
 import java.util.LinkedList;
 import java.util.Queue;
-public class pr12 {
+public class QueueReverser {
     public static void reverseQueue(Queue<Integer> queue) {
         if (queue.isEmpty()) {
             return;

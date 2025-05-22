@@ -1,7 +1,7 @@
 package Day18;
 import java.util.*;
 
-public class pr19 {
+public class MaxValueKeyFinder {
     public static String getMaxKey(Map<String, Integer> map) {
         String maxKey = null;
         int maxValue = Integer.MIN_VALUE;

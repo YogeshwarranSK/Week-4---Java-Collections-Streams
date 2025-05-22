@@ -1,7 +1,7 @@
 package Day18;
 import java.util.*;
 
-public class pr15 {
+public class StackUsingQueues {
     Queue<Integer> q1 = new LinkedList<>();
     Queue<Integer> q2 = new LinkedList<>();
     public void push(int x) {
@@ -23,7 +23,7 @@ public class pr15 {
         return q1.isEmpty();
     }
     public static void main(String[] args) {
-        pr15 stack = new pr15();
+        StackUsingQueues stack = new StackUsingQueues();
         stack.push(1);
         stack.push(2);
         stack.push(3);

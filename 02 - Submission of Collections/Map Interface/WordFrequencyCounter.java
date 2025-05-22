@@ -2,7 +2,7 @@ package Day18;
 import java.io.*;
 import java.util.*;
 
-public class pr17 {
+public class WordFrequencyCounter {
     public static Map<String, Integer> countWordFrequency(String filename)
             throws IOException {
         Map<String, Integer> wordCount = new HashMap<>();

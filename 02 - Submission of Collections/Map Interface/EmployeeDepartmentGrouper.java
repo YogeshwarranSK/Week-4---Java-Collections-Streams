@@ -11,7 +11,7 @@ class Employee {
         return name;
     }
 }
-public class pr21 {
+public class EmployeeDepartmentGrouper {
     public static Map<String, List<Employee>> groupByDepartment(List<Employee> employees) {
         Map<String, List<Employee>> departmentMap = new HashMap<>();
         for (Employee e : employees) {

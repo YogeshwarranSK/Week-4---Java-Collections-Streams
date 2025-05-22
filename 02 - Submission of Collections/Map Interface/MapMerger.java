@@ -1,7 +1,7 @@
 package Day18;
 import java.util.*;
 
-public class pr20 {
+public class MapMerger {
     public static Map<String, Integer> mergeMaps(Map<String, Integer> map1,
                                                  Map<String, Integer> map2) {
         Map<String, Integer> merged = new HashMap<>(map1);

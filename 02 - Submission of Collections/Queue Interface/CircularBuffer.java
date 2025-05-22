@@ -1,12 +1,12 @@
 package Day18;
 
-public class pr16 {
+public class CircularBuffer {
     int[] buffer;
     int head = 0;
     int tail = 0;
     int size = 0;
     int capacity;
-    public pr16(int capacity) {
+    public CircularBuffer(int capacity) {
         this.capacity = capacity;
         buffer = new int[capacity];
     }
@@ -29,7 +29,7 @@ public class pr16 {
         System.out.println("]");
     }
     public static void main(String[] args) {
-        pr16 cb = new pr16(3);
+        CircularBuffer cb = new CircularBuffer(3);
         cb.insert(1);
         cb.insert(2);
         cb.insert(5);
