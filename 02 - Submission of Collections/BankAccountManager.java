@@ -1,6 +1,6 @@
 package Day18;
 import java.util.*;
-public class pr25 {
+public class BankAccountManager {
     static class BankAccount {
         String accountNumber;
         double balance;

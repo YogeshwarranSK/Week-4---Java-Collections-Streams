@@ -1,7 +1,7 @@
 package Day18;
 import java.util.*;
 
-public class pr24 {
+public class ShoppingCartSystem {
     static class ShoppingCartManager {
         HashMap<String, Double> productPrices = new HashMap<>();
         LinkedHashMap<String, Integer> cartItems = new LinkedHashMap<>();

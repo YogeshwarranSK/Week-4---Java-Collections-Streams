@@ -1,7 +1,7 @@
 package Day18;
 import java.util.*;
 
-public class pr23 {
+public class VoteManager {
     static class VotingManager {
         HashMap<String, Integer> voteCount = new HashMap<>();
         LinkedHashMap<String, Integer> voteOrder = new LinkedHashMap<>();

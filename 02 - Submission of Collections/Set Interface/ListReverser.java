@@ -1,7 +1,7 @@
 package Day18;
 
 import java.util.*;
-public class pr1 {
+public class ListReverser {
     public static <T> void reverseList(List<T> list) {
         int left = 0;
         int right = list.size() - 1;

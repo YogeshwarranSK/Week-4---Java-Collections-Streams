@@ -2,7 +2,7 @@ package Day18;
 
 import java.util.*;
 
-public class pr5 {
+public class NthElementFinder {
     public static <T> T findNthFromEnd(LinkedList<T> list, int n) {
         Iterator<T> first = list.iterator();
         Iterator<T> second = list.iterator();

@@ -1,6 +1,6 @@
 package Day18;
 import java.util.*;
-public class pr2 {
+public class FrequencyCounter {
     public static Map<String, Integer> countFrequency(List<String> list) {
         Map<String, Integer> frequency = new HashMap<>();
         for (String item : list) {

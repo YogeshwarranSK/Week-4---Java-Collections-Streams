@@ -2,7 +2,7 @@ package Day18;
 import java.time.LocalDate;
 import java.util.*;
 
-public class pr22 {
+public class PolicyManagementSystem {
     static class Policy {
         String policyNumber;
         String policyholderName;

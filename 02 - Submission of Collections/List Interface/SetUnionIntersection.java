@@ -1,7 +1,7 @@
 package Day18;
 import java.util.*;
 
-public class pr7 {
+public class SetUnionIntersection {
     public static void main(String[] args) {
         Set<Integer> set1 = new HashSet<>(Arrays.asList(3, 1, 2));
         Set<Integer> set2 = new HashSet<>(Arrays.asList(6, 3, 5));

@@ -1,6 +1,6 @@
 package Day18;
 import java.util.*;
-public class pr4 {
+public class DuplicateRemover {
     public static <T> List<T> removeDuplicates(List<T> list) {
         Set<T> seen = new LinkedHashSet<>();
         seen.addAll(list);

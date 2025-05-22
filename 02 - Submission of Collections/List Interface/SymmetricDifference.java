@@ -1,7 +1,7 @@
 package Day18;
 import java.util.*;
 
-public class pr8 {
+public class SymmetricDifference {
     public static void main(String[] args) {
         Set<Integer> set1 = new HashSet<>(Arrays.asList(3, 8, 7));
         Set<Integer> set2 = new HashSet<>(Arrays.asList(8, 6, 5));

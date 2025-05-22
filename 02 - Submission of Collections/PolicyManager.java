@@ -38,7 +38,7 @@ class Policy implements Comparable<Policy> {
     }
 }
 
-public class pr11 {
+public class PolicyManager {
     public static void main(String[] args) {
         Set<Policy> hashSet = new HashSet<>();
         Set<Policy> linkedHashSet = new LinkedHashSet<>();

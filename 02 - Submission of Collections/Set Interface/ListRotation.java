@@ -1,6 +1,6 @@
 package Day18;
 import java.util.*;
-public class pr3 {
+public class ListRotation {
     public static <T> List<T> rotateLeft(List<T> list, int k) {
         int n = list.size();
         k = k % n;
