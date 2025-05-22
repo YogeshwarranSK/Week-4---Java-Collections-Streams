@@ -2,7 +2,7 @@ package Day21;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class pr2 {
+public class LicensePlateValidator {
     private static final String PLATE_PATTERN = "^[A-Z]{2}[0-9]{4}$";
     public static boolean isValidPlate(String plate) {
         return Pattern.matches(PLATE_PATTERN, plate);

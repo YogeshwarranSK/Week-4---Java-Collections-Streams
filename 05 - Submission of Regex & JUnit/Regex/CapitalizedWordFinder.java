@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class pr5 {
+public class CapitalizedWordFinder {
     private static final String WORD_PATTERN = "\\b[A-Z][a-zA-Z]*\\b";
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

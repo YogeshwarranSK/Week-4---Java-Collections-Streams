@@ -2,7 +2,7 @@ package Day21;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class pr11 {
+public class CreditCardValidator {
     private static final String VISA_PATTERN = "^4\\d{15}$";
     private static final String MASTERCARD_PATTERN = "^5\\d{15}$";
 

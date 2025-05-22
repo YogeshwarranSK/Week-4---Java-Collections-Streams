@@ -1,7 +1,7 @@
 package Day21;
 import java.util.regex.*;
 
-public class pr15 {
+public class SSNValidator {
     public static void main(String[] args) {
         String[] inputs = {
                 "My SSN is 123-45-6789.",

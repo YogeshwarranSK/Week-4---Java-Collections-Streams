@@ -2,7 +2,7 @@ package Day21;
 import java.util.regex.*;
 import java.util.*;
 
-public class pr14 {
+public class RepeatedWordDetector {
     public static void main(String[] args) {
         String text = "This is is a repeated repeated word test.";
         Pattern pattern = Pattern.compile("\\b(\\w+)\\b\\s+\\1\\b", Pattern.CASE_INSENSITIVE);

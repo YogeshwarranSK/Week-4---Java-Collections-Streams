@@ -2,7 +2,7 @@ package Day21;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class pr3 {
+public class HexColorValidator {
     private static final String HEX_PATTERN = "^#[0-9a-fA-F]{6}$";
     public static boolean isValidHex(String hex) {
         return Pattern.matches(HEX_PATTERN, hex);

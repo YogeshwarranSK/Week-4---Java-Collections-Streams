@@ -1,7 +1,7 @@
 package Day21;
 import java.util.Scanner;
 
-public class pr8 {
+public class WhitespaceNormalizer {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter text: ");

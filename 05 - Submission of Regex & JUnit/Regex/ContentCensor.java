@@ -1,7 +1,7 @@
 package Day21;
 import java.util.Scanner;
 
-public class pr9 {
+public class ContentCensor {
     private static final String[] BAD_WORDS = {"damn", "stupid"};
 
     public static String censor(String input) {

@@ -3,13 +3,14 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class pr6 {
-    private static final String DATE_PATTERN = "\\b(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/\\d{4}\\b";
+public class ProgrammingLanguageFinder {
+    private static final String LANGUAGES = "\\b(Java|Python|JavaScript|Go|C|C\\+\\+|Ruby|Swift|PHP|Kotlin)\\b";
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter text: ");
         String input = scanner.nextLine();
-        Pattern pattern = Pattern.compile(DATE_PATTERN);
+        Pattern pattern = Pattern.compile(LANGUAGES);
         Matcher matcher = pattern.matcher(input);
         boolean found = false;
         while (matcher.find()) {
