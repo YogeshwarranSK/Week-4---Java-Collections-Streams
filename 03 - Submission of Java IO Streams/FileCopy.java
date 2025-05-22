@@ -3,7 +3,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.File;
 import java.io.IOException;
-public class pr1 {
+public class FileCopy {
     public static void main(String[] args) {
         String sourcePath = "source.txt.rtf";
         String destinationPath = "destination.txt.rtf";

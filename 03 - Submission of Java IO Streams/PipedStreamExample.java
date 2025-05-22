@@ -1,6 +1,6 @@
 package Day19;
 import java.io.*;
-public class pr8 {
+public class PipedStreamExample {
     public static void main(String[] args) {
         try {
             PipedOutputStream pos = new PipedOutputStream();

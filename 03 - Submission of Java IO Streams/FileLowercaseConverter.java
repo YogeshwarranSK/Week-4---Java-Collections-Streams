@@ -1,6 +1,6 @@
 package Day19;
 import java.io.*;
-public class pr6 {
+public class FileLowercaseConverter {
     public static void main(String[] args) {
         String sourceFile = "input.txt";
         String destinationFile = "output.txt";

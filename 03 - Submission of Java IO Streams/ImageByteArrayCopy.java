@@ -1,6 +1,6 @@
 package Day19;
 import java.io.*;
-public class pr5 {
+public class ImageByteArrayCopy {
     public static void main(String[] args) {
         String sourceImagePath = "sourceImg.jpg";
         String destinationImagePath = "copiedImg.jpg";

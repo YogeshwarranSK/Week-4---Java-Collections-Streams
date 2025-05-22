@@ -1,6 +1,6 @@
 package Day19;
 import java.io.*;
-public class pr3 {
+public class UserInfoCollector {
     public static void main(String[] args) {
         BufferedReader reader = null;
         FileWriter writer = null;

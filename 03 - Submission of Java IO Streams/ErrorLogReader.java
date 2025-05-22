@@ -1,6 +1,6 @@
 package Day19;
 import java.io.*;
-public class pr9 {
+public class ErrorLogReader {
     public static void main(String[] args) {
         String filePath = ".txt";
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {

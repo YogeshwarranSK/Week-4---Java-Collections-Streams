@@ -18,7 +18,7 @@ class Employee implements Serializable {
                 + ", Salary: " + salary);
     }
 }
-public class pr4 {
+public class EmployeeSerialization {
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
         employees.add(new Employee(1, "Lucky", "HR", 50000));

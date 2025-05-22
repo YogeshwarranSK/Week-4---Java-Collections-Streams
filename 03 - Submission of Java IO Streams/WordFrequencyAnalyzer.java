@@ -1,7 +1,7 @@
 package Day19;
 import java.io.*;
 import java.util.*;
-public class pr10 {
+public class WordFrequencyAnalyzer {
     public static void main(String[] args) {
         String filePath = "name.txt";
         Map<String, Integer> wordCount = new HashMap<>();

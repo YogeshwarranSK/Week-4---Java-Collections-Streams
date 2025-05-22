@@ -1,6 +1,6 @@
 package Day19;
 import java.io.*;
-public class pr2 {
+public class BufferedVsUnbufferedCopy {
     public static void main(String[] args) {
         String sourcePath = "largefilSource.dat";
         String bufferedPath = "largefilebuffer.dat";

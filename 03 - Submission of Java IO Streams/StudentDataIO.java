@@ -1,6 +1,6 @@
 package Day19;
 import java.io.*;
-public class pr7 {
+public class StudentDataIO {
     public static void main(String[] args) {
         String fileName = "students.dat";
         writeStudentData(fileName);
