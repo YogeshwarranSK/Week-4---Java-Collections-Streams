@@ -1,7 +1,7 @@
 package Day22;
 import java.util.*;
 
-public class NameFilterApp {
+public class nameFilterApp {
     public static void main(String[] args) {
         List<String> names = Arrays.asList("Alice", "Bob", "Andrew", "Charlie", "Angela", "David");
 

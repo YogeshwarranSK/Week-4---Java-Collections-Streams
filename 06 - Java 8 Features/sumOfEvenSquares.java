@@ -1,7 +1,7 @@
 package Day22;
 import java.util.*;
 
-public class SumOfEvenSquares {
+public class sumOfEvenSquares {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6);
 

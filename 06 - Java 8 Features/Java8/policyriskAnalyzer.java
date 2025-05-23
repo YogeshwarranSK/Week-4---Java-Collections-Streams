@@ -37,7 +37,7 @@ class RiskAssessment {
     }
 }
 
-public class PolicyRiskAnalyzer {
+public class policyriskAnalyzer {
     public static List<RiskAssessment> assessPolicyHolderRisks(List<PolicyHolder> holders) {
         return holders.stream()
                 .filter(h -> h.policyType.equals("Life") && h.age > 60)

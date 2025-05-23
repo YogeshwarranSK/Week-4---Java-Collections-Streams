@@ -19,7 +19,7 @@ class InsurancePolicy {
     }
 }
 
-public class InsurancePolicyStreamOperations {
+public class insurancePolicyStreamOperations {
     public static void main(String[] args) {
         List<InsurancePolicy> policies = Arrays.asList(
                 new InsurancePolicy("P001", "Alice Smith", 1300),

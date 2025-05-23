@@ -1,7 +1,7 @@
 package Day22;
 import java.util.function.Function;
 
-public class CircleAreaCalculator {
+public class circleAreaCalculator {
     public static void main(String[] args) {
         Function<Double, Double> calculateArea = radius -> Math.PI * radius * radius;
 

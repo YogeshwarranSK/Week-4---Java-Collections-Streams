@@ -9,7 +9,7 @@ interface SquareCalculator {
     }
 }
 
-public class SquareCalculatorDemo {
+public class squareCalculatorDemo {
     public static void main(String[] args) {
         SquareCalculator calculator = n -> n * n;
 

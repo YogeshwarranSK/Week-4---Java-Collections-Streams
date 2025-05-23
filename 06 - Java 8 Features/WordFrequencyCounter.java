@@ -3,7 +3,7 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class WordFrequencyAnalyzer {
+public class WordFrequencyCounter {
     public static void main(String[] args) {
         String text = "Java is a popular programming language. Java is widely used in web development. " +
                 "Java has many libraries. Learning Java is fun.";

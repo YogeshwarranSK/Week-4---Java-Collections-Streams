@@ -2,7 +2,7 @@ package Day22.Java8;
 import java.util.*;
 import java.util.stream.*;
 
-public class EmployeeStreamProcessor {
+public class EmployeeDataProcessor {
 
     public static class Employee {
          int id;
@@ -17,7 +17,6 @@ public class EmployeeStreamProcessor {
             this.salary = salary;
         }
 
-        public int getId() { return id; }
         public String getName() { return name; }
         public String getDepartment() { return department; }
         public double getSalary() { return salary; }
@@ -32,7 +31,7 @@ public class EmployeeStreamProcessor {
         List<Employee> filteredEmployees = employees.stream()
                 .filter(e -> "Engineering".equalsIgnoreCase(e.getDepartment()) && e.getSalary() > 80000)
                 .sorted(Comparator.comparingDouble(Employee::getSalary).reversed())
-                .collect(Collectors.toList());
+                .toList();
 
         Map<String, List<Employee>> groupedByDept = filteredEmployees.stream()
                 .collect(Collectors.groupingBy(Employee::getDepartment));

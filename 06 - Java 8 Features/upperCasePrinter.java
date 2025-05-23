@@ -2,7 +2,7 @@ package Day22;
 import java.util.*;
 import java.util.function.Consumer;
 
-public class UpperCasePrinter {
+public class upperCasePrinter {
     public static void main(String[] args) {
         List<String> names = Arrays.asList("alice", "bob", "charlie");
 

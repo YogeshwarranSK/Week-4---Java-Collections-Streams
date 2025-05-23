@@ -2,7 +2,7 @@ package Day22;
 import java.util.*;
 import java.util.function.Predicate;
 
-public class FilterWordsWithPredicate {
+public class filterWordsWithPredicate {
     public static void main(String[] args) {
         List<String> words = Arrays.asList("hello", "worldwide", "apple", "banana", "wonderful", "hi");
 

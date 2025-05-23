@@ -1,7 +1,7 @@
 package Day22;
 import java.util.function.BiFunction;
 
-public class StringConcatenator {
+public class stringConcatenator {
     public static void main(String[] args) {
         BiFunction<String, String, String> concatenate = (s1, s2) -> s1 + " " + s2;
 

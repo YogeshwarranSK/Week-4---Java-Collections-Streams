@@ -3,7 +3,7 @@ import java.util.*;
 
 import static java.util.stream.Collectors.*;
 
-public class TopProductRevenueAnalyzer {
+public class SalesAnalyzer {
 
     public static class Sale {
          String productId;
