@@ -40,7 +40,7 @@ class FraudAlert {
     }
 }
 
-public class pr6 {
+public class InsuranceRiskCalculator {
 
     public static List<FraudAlert> detectFraud(List<Transaction> transactions) {
         return transactions.stream()

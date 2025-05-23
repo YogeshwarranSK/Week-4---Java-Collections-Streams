@@ -1,9 +1,8 @@
 package Day22;
 import java.util.*;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
 
-public class pr5 {
+public class FilterWordsWithPredicate {
     public static void main(String[] args) {
         List<String> words = Arrays.asList("hello", "worldwide", "apple", "banana", "wonderful", "hi");
 

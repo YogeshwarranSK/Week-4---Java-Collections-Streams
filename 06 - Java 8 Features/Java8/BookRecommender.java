@@ -2,7 +2,7 @@ package Day22.Java8;
 import java.util.*;
 import java.util.stream.*;
 
-public class pr3 {
+public class BookRecommender {
 
     public static class Book {
          String title;

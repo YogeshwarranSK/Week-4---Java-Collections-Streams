@@ -1,9 +1,9 @@
 package Day22.Java8;
 import java.util.*;
-import java.util.stream.*;
+
 import static java.util.stream.Collectors.*;
 
-public class pr2 {
+public class TopProductRevenueAnalyzer {
 
     public static class Sale {
          String productId;

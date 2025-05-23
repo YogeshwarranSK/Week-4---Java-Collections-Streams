@@ -1,6 +1,5 @@
 package Day22;
 import java.util.*;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 class InsurancePolicy {
@@ -20,7 +19,7 @@ class InsurancePolicy {
     }
 }
 
-public class pr11 {
+public class InsurancePolicyStreamOperations {
     public static void main(String[] args) {
         List<InsurancePolicy> policies = Arrays.asList(
                 new InsurancePolicy("P001", "Alice Smith", 1300),

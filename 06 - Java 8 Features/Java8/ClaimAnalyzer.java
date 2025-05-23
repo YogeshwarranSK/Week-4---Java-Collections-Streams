@@ -2,7 +2,7 @@ package Day22.Java8;
 import java.util.*;
 import java.util.stream.*;
 
-public class pr4 {
+public class ClaimAnalyzer {
 
     public static class Claim {
          String claimId;

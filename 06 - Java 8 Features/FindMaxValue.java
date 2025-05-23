@@ -1,8 +1,7 @@
 package Day22;
 import java.util.*;
-import java.util.stream.*;
 
-public class pr10 {
+public class FindMaxValue {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(10, 25, 5, 30, 15);
 

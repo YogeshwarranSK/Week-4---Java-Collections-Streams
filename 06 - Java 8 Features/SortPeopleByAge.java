@@ -18,7 +18,7 @@ class Person {
     }
 }
 
-public class pr3 {
+public class SortPeopleByAge {
     public static void main(String[] args) {
         List<Person> people = Arrays.asList(
                 new Person("Alice", 30, 50000),
